@@ -7,5 +7,5 @@ variable_b=20
 addition=variable_a+variable_b
 
 #display results
-print("a+b", addition)
+print("a+b=", addition)
 
