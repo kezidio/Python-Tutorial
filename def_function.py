@@ -1,3 +1,9 @@
+#This program defines four functions: sum(x, y, z): returns the sum of three numbers.
+#mult(x, y, z): returns the product of three numbers.
+#string(): returns the text "SPFC".
+#function(): calculates 10 + 20 and prints the result.
+#Then calls each function to either display or return its result.
+
 def sum(x, y, z):
     return x + y + z
 
@@ -7,7 +13,7 @@ def mult(x, y, z):
 def string():
     return "SPFC"
 
-def quieta():
+def function():
     x = 10 + 20
     print("The result is ", x)
 
@@ -26,5 +32,5 @@ print("Product:", result_mult)
 team = string()
 print("String function returns:", team)
 
-# quieta
-quieta()
+#
+function()
