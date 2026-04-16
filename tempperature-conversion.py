@@ -5,6 +5,6 @@ tempF = input("Enter temperature in F:")
 tempC= (float(tempF)-32)*5/9
 
 #display temperature in C
-print("The tempture in C is", temC)
+print("The tempture in C is", tempC)
 
 
