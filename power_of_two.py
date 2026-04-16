@@ -8,7 +8,7 @@ n = int(input("Enter a positive number of iterations: "))
 #declare the initial iteration
 i=0
 
-#create a while loop to prin n calculations
+#create a while loop to print n+1 calculations
 while i<=n:
 	#display 2^i
 	print(2**i)
