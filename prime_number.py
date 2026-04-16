@@ -5,23 +5,25 @@
 #declare variable and ask user to enter number
 number=int(input("Please enter a whole number: "))
 
-#declare a variable to check if number is even
+#declare a variable to check if remainder
 div=2
 
-#declare a variable and assign value true
+#declare a variable and store value true or false
 prime=True
 
-#create a while loop to check all cases
+#create a while loop to check remainders 
 #while 2 <= num-1 and true
 while(div<=number-1) and (prime):
-        #if number remainder of 2 = 0
+        #if number remainder = 0
         if(number%div==0):
                 prime= False
-         #add 1 to check remainder       
+         #increase variable for remainder check       
         div=div+1
         
+#now we check if prime is true and number input is different than 1       
 if(prime and not number==1):
         print("Prime number!")
+# else, if prime is false         
 else:
         print("Not a prime number!")
         
