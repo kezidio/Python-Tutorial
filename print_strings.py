@@ -9,4 +9,4 @@ first_name= input("What is the first name? ")
 second_name= input("What is the second name? ")
 
 #display the message containing both strings
-print("Good morning ", first_name,"!!! Good morning ", second_name)
+print("Good morning ", first_name,"!!! Good morning ", second_name, "!!!")
