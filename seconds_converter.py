@@ -1,6 +1,7 @@
 #This program demonstrates how to convert a given number of seconds into 
 #days, hours, minutes, and seconds. It shows how mathematical operations 
 #can be used to break down a single value into more meaningful time units.
+# Author: Kaweny Ezidio
 
 #declare variable and ask user to enter a number
 seconds_total=int(input("Please enter the number of seconds to be converted:"))
