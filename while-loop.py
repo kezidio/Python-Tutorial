@@ -1,6 +1,7 @@
 #This program demonstrates the use of a while loop to repeatedly execute a
 #block of code as long as a condition remains true. It shows how loops 
 #can automate repetitive tasks and control the flow of a program.
+# Author: Kaweny Ezidio
 
 #display prompt
 print("Enter a sequence of numbers to be added. The program will stop once you enter the number 0")
