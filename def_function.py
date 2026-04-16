@@ -1,4 +1,5 @@
-#This program defines four functions: sum(x, y, z): returns the sum of three numbers.
+#This program explores the use of functions. It defines four functions: 
+#sum(x, y, z): returns the sum of three numbers.
 #mult(x, y, z): returns the product of three numbers.
 #string(): returns the text "SPFC".
 #function(): calculates 10 + 20 and prints the result.
