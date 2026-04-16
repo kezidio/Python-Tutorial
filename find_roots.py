@@ -6,9 +6,9 @@
 import math
 
 #declare variables and ask user to insert numbers
-a=float(input("a "))
-b=float(input("b "))
-c=float(input("c "))
+a=float(input("a: "))
+b=float(input("b: "))
+c=float(input("c: "))
 
 #calculate how many real solutions the equation has (b² − 4ac)
 D = b** 2 -4 * a * c
